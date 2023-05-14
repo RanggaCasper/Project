@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Sora:wght@700&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+	background-color: #272727;
+}
+
+ul li a .nav-link{
+	color: #c9c9c9;
+}
+
+ul li a .navbar-custom-link:hover{
+	color: #c9c9c9;
+}
+
+.navbar-custom{
+	border-bottom: 1px solid #6c757d; 
+}
+
+.about{
+	color: #4ca9ff;
+}
+
+.content-about{
+	width: 90%;
+}
+
+.img-profile{
+	border: 3px solid #4ca9ff;
+}
+
+.content-biografi h4{
+	color: #fff;
+}
+
+.content-biografi p{
+	color: #c9c9c9;
+}
+
+.content-social a{
+	text-decoration: none;
+}
+
+.content-social a i{
+	font-size: 25px;
+	color: white;
+}
+
+.card-custom{
+	width: 50%;
+	margin-left: 5%;
+	background-color: rgb(61,61,61);
+}
+
+.icon-custom{
+	top: -17%;
+	background-color: rgb(61,61,61);	
+}
+
+.card-skill{
+	background-color: rgb(61,61,61);		
+}
+
+.portofolio{
+	padding-top: 50px;
+}
+
+.portofolio h2{
+	font-family: "Sora";
+	font-size: 48px;
+}
+
+.portofolio p{
+	line-height: 35px;
+	text-align: justify;
+}
+
+.btn-tombol{
+	color: #fff;
+	background-color: #3d3d3d;
+}
+
+.btn-tombol:hover{
+	color: #fff;
+	background-color: #4ca9ff;
+	/*float: right;*/
+}
+
+.border-footer{
+	border-top: 1px solid #fff;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+
+.border-footer ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.heading-text h2,.span{
+	font-size: 48px;
+	font-family: "Sora";
+	color: #fff;
+}
+
+.image{
+	position: relative;
+	background-color: #3d3d3d;
+	width: 100%;
+	height: 20pc;
+	border-radius: 10px;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: end;
+}
+
+.image.arrow-img{
+	position: relative;
+	background-color: #fff;
+	width: 35px;
+	height: 35px;
+	border-radius: 10px;
+	float: right;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.arrow-img i{
+	font-size: 20px;
+	color: #3d3d3d;
+	transform: rotateZ(-45deg);
+}
